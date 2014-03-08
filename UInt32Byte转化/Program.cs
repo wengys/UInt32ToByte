@@ -91,7 +91,7 @@ namespace UInt32Byte转化
     }
 
     [StructLayout(LayoutKind.Explicit)]
-    internal unsafe struct UIntByteConverter
+    internal struct UIntByteConverter
     {
         [FieldOffset(0)]
         public uint Source;
